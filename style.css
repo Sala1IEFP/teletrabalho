@@ -1,0 +1,193 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  letter-spacing: 1px;
+  line-height: 1.6;
+  background-color: rgb(12, 12, 50);
+  color: #dadada;
+  grid-column: 2f;
+}
+
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #151515;
+  padding: 5px 30px;
+}
+
+.navbar .logo a {
+  color: rgb(255, 200, 0);
+  font-size: 24px;
+  text-decoration: none;
+}
+
+.nav-menu {
+  list-style-type: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-menu li a {
+  color: rgb(255, 200, 0);
+  text-decoration: none;
+  font-size: 18px;
+  transition-duration: 0.5s;
+}
+
+.nav-menu li a:hover {
+  color: #ddd;
+  border: 4px outset rgb(255, 200, 0);
+  padding: 5px;
+  transition-duration: 0.5s;
+}
+
+
+/* Layout de duas colunas no main */
+.content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 40px 30px;
+}
+
+.text-column {
+  width: 50%;
+  padding-right: 20px;
+}
+
+.image-column {
+  width: 50%;
+}
+
+.image-column img {
+  width: 95%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.img-rotate img {
+  border-radius: 50%;
+  width: 80%;
+}
+
+.img-rotate:hover {
+  border-radius: 50%;
+  transition-duration: 0.75s;
+  transform: rotateY(-180deg);
+}
+
+.video-page {
+  text-align: center;
+  padding: 20px;
+  width: 100%;
+}
+
+.redim {
+  margin-top: -150px;
+  width: 900px;
+  height: 700px;
+}
+
+.redim2 {
+  margin-top: -30px;
+  width: 900px;
+  height: 700px;
+}
+
+h1, h2, p, .passo li {
+  margin: 0.75rem 4rem;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+.aceda {
+  font-size: 30px;
+}
+
+.item-background {
+  width: auto; /* Deixe o tamanho dos itens automático */
+  display: inline-block;
+  width: 40%;
+  border: 1px solid rgb(152, 15, 164);
+  border-radius: 20px;
+  text-align: center;
+  margin: 20px;
+  padding: 7px;
+}
+
+.item-background:hover {
+  background: linear-gradient(90deg, #999edd7c, rgb(152, 15, 164));
+  cursor: grab;
+  box-shadow: 0 0 10px blueviolet;
+}
+
+.ready {
+  transition-duration: .5s;
+}
+
+.ready:hover {
+  transition-duration: .5s;
+  padding: 1.5rem;
+  border-radius: 50px;
+  background: linear-gradient(90deg, rgb(152, 15, 164), #999edd7c);
+  box-shadow: 10px 10px 50px blueviolet;
+}
+
+.highlight {
+  font-size: 18px;
+  color: rgb(255, 200, 0);
+}
+
+.github-link a {
+  font-size: 2rem;
+  color: blue;
+  font-family: 'Courier New', Courier, monospace;
+  text-decoration: none;
+  transition-duration: .5s;
+}
+
+.github-link a:hover {
+  font-size: 3rem;
+  color: rgb(152, 15, 164);
+  transition-duration: .5s;
+}
+
+ol {
+  margin: 15px 0px 70px 0px;
+}
+
+
+.footer a {
+  text-decoration: none;
+  color: rgb(255, 200, 0);
+}
+
+.footer a:hover {
+  text-decoration: underline;
+  color: rgb(255, 200, 0);
+}
+
+.footer {
+  background-color: #151515e9;
+  color: rgb(255, 200, 0);
+  text-align: center;
+  padding: px 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  font-size: 12px;
+}
+
+.footer p {
+  margin: 10px;
+}
+
